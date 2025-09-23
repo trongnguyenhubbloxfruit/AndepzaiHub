@@ -8401,13 +8401,6 @@ Input = PVP:AddInput("Input", {
      end
 })
 ----------------------------------------------------------------------------------------------------
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Yes Or No";
-    Text = "U want reset Config?";
-    Icon = "rbxassetid://98660486972471";
-    Duration = 1e5;
-	Button1 = "Yes";
-	Button2 = "No";
 })
 
 local ScreenGui = Instance.new("ScreenGui")
